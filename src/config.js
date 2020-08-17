@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: 'Jean-François GUÉRITTE | System & DevOps Engineer',
+  siteTitle: 'Brittany Chiang | Software Engineer',
   siteDescription:
-    'Jean-François GUÉRITTE  is a System & DevOps Engineer based in Toulouse, France.',
+    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
   siteKeywords:
-    'Jean-François GUÉRITTE , Jean-François, Gueritte, Guéritte, jfgueritte, DevOps Engineer, System Engineer',
-  siteUrl: 'https://gueritte.com',
+    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
+  siteUrl: 'https://brittanychiang.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-36453091-1',
-  googleVerification: 'WXmym-09JD04R4L3ymvdPJcI3GCwJR3t-i99hrhCxIQ',
-  name: 'Jean-François GUÉRITTE ',
-  location: 'Toulouse, FR',
-  email: 'contact@gueritte.com',
-  github: 'https://github.com/jf-gueritte',
-  twitterHandle: '@jf_gueritte',
+  googleAnalyticsID: 'UA-45666519-2',
+  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  name: 'Brittany Chiang',
+  location: 'Boston, MA',
+  email: 'brittany.chiang@gmail.com',
+  github: 'https://github.com/bchiang7',
+  twitterHandle: '@bchiang7',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/jf-gueritte',
+      url: 'https://github.com/bchiang7',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/jean-francois-gueritte/',
+      url: 'https://www.linkedin.com/in/bchiang7',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/jf-gueritte',
+      url: 'https://codepen.io/bchiang7',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/jf_gueritte/',
+      url: 'https://www.instagram.com/bchiang7',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/jf_gueritte',
+      url: 'https://twitter.com/bchiang7',
     },
   ],
 

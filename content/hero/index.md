@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
-name: 'Jean-François GUÉRITTE'
-subtitle: 'System & DevOps Engineer'
+name: 'Brittany Chiang'
+subtitle: 'I build things for the web.'
 buttonText: 'Get In Touch'
 ---
 
-My priority is to reinvest every day my skills acquired in both professional and personal experiences, in France and abroad, in order to exceed the objectives set.
+I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.
