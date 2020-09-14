@@ -16,7 +16,7 @@ const StyledContainer = styled(Section)`
 `;
 const StyledHeading = styled(Heading)`
   display: block;
-  color: ${colors.green};
+  color: ${colors.un};
   font-size: ${fontSizes.md};
   font-family: ${fonts.SFMono};
   font-weight: normal;

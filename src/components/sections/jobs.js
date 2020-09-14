@@ -89,7 +89,7 @@ const StyledTabButton = styled.button`
 `;
 const StyledHighlight = styled.span`
   display: block;
-  background: ${colors.green};
+  background: ${colors.un};
   width: 2px;
   height: ${theme.tabHeight}px;
   border-radius: ${theme.borderRadius};
@@ -140,7 +140,7 @@ const StyledJobTitle = styled.h4`
   margin-bottom: 5px;
 `;
 const StyledCompany = styled.span`
-  color: ${colors.green};
+  color: ${colors.un};
 `;
 const StyledJobDetails = styled.h5`
   font-family: ${fonts.SFMono};
