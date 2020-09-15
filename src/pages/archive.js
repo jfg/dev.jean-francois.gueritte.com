@@ -32,7 +32,7 @@ const StyledTable = styled.table`
 
     &:hover,
     &:focus {
-      background-color: ${colors.lightNavy};
+      background-color: ${colors.table_tbodytr_focus};
     }
   }
   th,
@@ -56,7 +56,7 @@ const StyledTable = styled.table`
     }
     &.title {
       padding-top: 15px;
-      color: ${colors.lightestSlate};
+      color: ${colors.td_title};
       font-size: ${fontSizes.xl};
       font-weight: 700;
     }
@@ -109,8 +109,8 @@ const ArchivePage = ({ location, data }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Archive | Brittany Chiang</title>
-        <link rel="canonical" href="https://brittanychiang.com/archive" />
+        <title>Archive | Jean-François GUÉRITTE</title>
+        <link rel="canonical" href="https://gueritte.com/archive" />
       </Helmet>
 
       <StyledMainContainer>

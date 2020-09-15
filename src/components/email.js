@@ -17,7 +17,7 @@ const StyledLinkWrapper = styled.div`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.lightSlate};
+    background-color: ${colors.featured_tags_icon_background};
   }
 `;
 const StyledEmailLink = styled.a`

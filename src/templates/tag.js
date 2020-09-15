@@ -31,11 +31,11 @@ const StyledTagsContainer = styled(Main)`
         font-size: inherit;
         margin: 0;
         a {
-          color: ${colors.lightSlate};
+          color: ${colors.tagscontainer_ul};
         }
       }
       .subtitle {
-        color: ${colors.slate};
+        color: ${colors.tagscontainer_subtitle};
         font-size: ${fontSizes.sm};
 
         .tag {

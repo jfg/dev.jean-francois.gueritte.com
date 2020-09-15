@@ -31,7 +31,7 @@ const StyledPostContent = styled.div`
   p {
     margin: 1em 0;
     line-height: 1.5;
-    color: ${colors.lightSlate};
+    color: ${colors.postcontent_p};
   }
 `;
 
@@ -42,8 +42,8 @@ const PostTemplate = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>{title} | Brittany Chiang</title>
-        <link rel="canonical" href="https://brittanychiang.com/pensieve" />
+        <title>{title} | Jean-François GUÉRITTE</title>
+        <link rel="canonical" href="https://gueritte.com/pensieve" />
       </Helmet>
 
       <StyledPostContainer>

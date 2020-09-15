@@ -51,7 +51,7 @@ const StyledPostInner = styled.div`
   height: 100%;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
-  background-color: ${colors.lightNavy};
+  background-color: ${colors.postinner_background};
   header,
   a {
     width: 100%;
@@ -73,7 +73,7 @@ const StyledPostHeader = styled.div`
   margin-bottom: 30px;
 `;
 const StyledFolder = styled.div`
-  color: ${colors.un};
+  color: ${colors.project_folder};
   svg {
     width: 40px;
     height: 40px;
@@ -82,17 +82,17 @@ const StyledFolder = styled.div`
 const StyledPostName = styled.h5`
   margin: 0 0 10px;
   font-size: ${fontSizes.xxl};
-  color: ${colors.lightestSlate};
+  color: ${colors.postname};
 `;
 const StyledPostDescription = styled.div`
   font-size: 17px;
-  color: ${colors.lightSlate};
+  color: ${colors.postdescription};
 `;
 const StyledDate = styled.span`
   text-transform: uppercase;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.xs};
-  color: ${colors.lightSlate};
+  color: ${colors.date};
 `;
 const StyledTags = styled.ul`
   display: flex;
@@ -105,7 +105,7 @@ const StyledTags = styled.ul`
   li {
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.xs};
-    color: ${colors.un};
+    color: ${colors.tags};
     line-height: 1.75;
     margin-right: 15px;
     &:last-of-type {
@@ -123,8 +123,8 @@ const PensievePage = ({ location, data }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Pensieve | Brittany Chiang</title>
-        <link rel="canonical" href="https://brittanychiang.com/pensieve" />
+        <title>Pensieve | Jean-François GUÉRITTE</title>
+        <link rel="canonical" href="https://gueritte.com/pensieve" />
       </Helmet>
 
       <StyledMainContainer>

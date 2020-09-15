@@ -53,7 +53,7 @@ const StyledProjectInner = styled.div`
   height: 100%;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
-  background-color: ${colors.lightNavy};
+  background-color: ${colors.project_container_background};
 `;
 const StyledProject = styled.div`
   transition: ${theme.transition};
@@ -71,7 +71,7 @@ const StyledProjectHeader = styled.div`
   margin-bottom: 30px;
 `;
 const StyledFolder = styled.div`
-  color: ${colors.un};
+  color: ${colors.project_folder};
   svg {
     width: 40px;
     height: 40px;
@@ -79,7 +79,7 @@ const StyledFolder = styled.div`
 `;
 const StyledProjectLinks = styled.div`
   margin-right: -10px;
-  color: ${colors.lightSlate};
+  color: ${colors.project_links};
 `;
 const StyledIconLink = styled.a`
   position: relative;
@@ -93,11 +93,11 @@ const StyledIconLink = styled.a`
 const StyledProjectName = styled.h5`
   margin: 0 0 10px;
   font-size: ${fontSizes.xxl};
-  color: ${colors.lightestSlate};
+  color: ${colors.featured_title};
 `;
 const StyledProjectDescription = styled.div`
   font-size: 17px;
-  color: ${colors.lightSlate};
+  color: ${colors.project_text};
   a {
     ${mixins.inlineLink};
   }
@@ -114,7 +114,7 @@ const StyledTechList = styled.ul`
   li {
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.xs};
-    color: ${colors.slate};
+    color: ${colors.featured_tags_text};
     line-height: 1.75;
     margin-right: 15px;
     &:last-of-type {
@@ -124,6 +124,7 @@ const StyledTechList = styled.ul`
 `;
 const StyledMoreButton = styled(Button)`
   margin: 100px auto 0;
+  color: ${colors.project_button};
 `;
 
 const Projects = ({ data }) => {

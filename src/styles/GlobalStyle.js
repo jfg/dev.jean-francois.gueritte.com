@@ -28,8 +28,8 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: ${colors.deux};
-    color: ${colors.slate};
+    background-color: ${colors.globalstyle_body_background};
+    color: ${colors.hero_text};
     line-height: 1.3;
     font-family: ${fonts.Calibre};
     font-size: ${fontSizes.xl};
@@ -50,8 +50,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: ${colors.slate};
-    color: ${colors.lightestSlate};
+    background-color: ${colors.globalstyle_selection_background};
+    color: ${colors.selection};
   }
 
   #root {
@@ -68,7 +68,7 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     font-weight: 600;
-    color: ${colors.lightestSlate};
+    color: ${colors.h6};
     margin: 0 0 10px 0;
   }
 
@@ -121,7 +121,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: ${colors.un};
+      color: ${colors.menu_button_focus};
     }
   }
 
@@ -132,7 +132,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:focus,
     &:active {
-      outline-color: ${colors.lightblue};
+      outline-color: ${colors.button_active};
     }
   }
 
@@ -161,8 +161,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     & > code {
-      background-color: ${colors.lightNavy};
-      color: ${colors.white};
+      background-color: ${colors.menu_button_focus};
+      color: ${colors.p_code};
       font-size: ${fontSizes.sm};
       border-radius: ${theme.borderRadius};
       padding: 0.3em 0.5em;
@@ -183,14 +183,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: ${colors.un};
+          color: ${colors.ul_li_before};
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: ${colors.un};
+    border-left-color: ${colors.blockquote_border};
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -204,7 +204,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    background-color: ${colors.lightestNavy};
+    background-color: ${colors.hr_background};
     height: 1px;
     border-width: 0px;
     border-style: initial;
@@ -219,18 +219,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: ${colors.un};
+    color: ${colors.logo};
   }
 
   .overline {
-    color: ${colors.un};
+    color: ${colors.hero_overline};
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.md};
     font-weight: normal;
   }
 
   .subtitle {
-    color: ${colors.un};
+    color: ${colors.hero_subtitle};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
     font-family: ${fonts.SFMono};
@@ -249,7 +249,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: ${colors.un};
+    color: ${colors.breadcrumb};
 
     .arrow {
       display: block;

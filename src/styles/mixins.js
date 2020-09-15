@@ -31,7 +31,7 @@ const mixins = {
     &:hover,
     &:active,
     &:focus {
-      color: ${colors.un};
+      color: ${colors.link_focus};
       outline: 0;
     }
   `,
@@ -43,17 +43,17 @@ const mixins = {
     position: relative;
     transition: ${theme.transition};
     cursor: pointer;
-    color: ${colors.un};
+    color: ${colors.inlinelink};
     &:hover,
     &:focus,
     &:active {
-      color: ${colors.un};
+      color: ${colors.inlinelink_active};
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: ${colors.un} !important;
+        color: ${colors.inlinelink_active2} !important;
         transition: ${theme.transition};
       }
     }
@@ -64,16 +64,16 @@ const mixins = {
       height: 1px;
       position: relative;
       bottom: 0.37em;
-      background-color: ${colors.un};
+      background-color: ${colors.inlinelink_after};
       transition: ${theme.transition};
       opacity: 0.5;
     }
   `,
 
   smallButton: css`
-    color: ${colors.un};
+    color: ${colors.smallbutton};
     background-color: transparent;
-    border: 1px solid ${colors.un};
+    border: 1px solid ${colors.smallbutton_border};
     border-radius: ${theme.borderRadius};
     padding: 0.75rem 1rem;
     font-size: ${fontSizes.smish};
@@ -85,7 +85,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.transGreen};
+      background-color: ${colors.smallbutton_active_background};
     }
     &:after {
       display: none !important;
@@ -93,9 +93,9 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: ${colors.un};
+    color: ${colors.bigbutton};
     background-color: transparent;
-    border: 1px solid ${colors.un};
+    border: 1px solid ${colors.bigbutton_border};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
@@ -107,7 +107,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.transGreen};
+      background-color: ${colors.bigbutton_active_background};
     }
     &:after {
       display: none !important;
@@ -122,12 +122,12 @@ const mixins = {
   `,
 
   boxShadow: css`
-    box-shadow: 0 10px 30px -15px ${colors.shadowNavy};
+    box-shadow: 0 10px 30px -15px ${colors.boxshadow};
     transition: ${theme.transition};
 
     &:hover,
     &:focus {
-      box-shadow: 0 20px 30px -15px ${colors.shadowNavy};
+      box-shadow: 0 20px 30px -15px ${colors.boxshadow_focus};
     }
   `,
 
@@ -144,7 +144,7 @@ const mixins = {
         content: '▹';
         position: absolute;
         left: 0;
-        color: ${colors.un};
+        color: ${colors.fancylist_li_before};
       }
     }
   `,
