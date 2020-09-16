@@ -41,7 +41,7 @@ const StyledMetadata = styled.div`
   line-height: 1;
 `;
 const StyledGitHubLink = styled.a`
-  color: ${colors.gitthublink};
+  color: ${colors.sourcelink};
   padding: 10px;
 `;
 const StyledGitHubInfo = styled.div`
@@ -70,7 +70,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/jf-gueritte/ServiceNow/')
+    fetch('https://api.github.com/repos/jf-gueritte/gueritte.com')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;

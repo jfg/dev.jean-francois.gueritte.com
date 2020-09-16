@@ -156,7 +156,7 @@ const theme = {
 
     //footer.js
     social: BLACK,
-    gitthublink: BLACK,
+    sourcelink: GREY,
 
     //archive.js
     table_tbodytr_focus: BLACK,
