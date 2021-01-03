@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://gueritte.com/sitemap.xml
+Host: https://gueritte.com
