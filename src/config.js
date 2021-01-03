@@ -9,8 +9,8 @@ module.exports = {
   googleVerification: '',
   name: 'Jean-François GUÉRITTE',
   location: 'Toulouse, FR',
-  email: 'https://www.youtube.com/embed/9FqwhW0B3tY',
-  link: 'https://www.youtube.com/embed/9FqwhW0B3tY',
+  email: 'contact@gueritte.com',
+  link: 'https://stars.chromeexperiments.com/',
   github: 'https://github.com/jfg',
   twitterHandle: '@jf_gueritte',
   linkedin: 'https://www.linkedin.com/in/jean-francois-gueritte/',
@@ -34,14 +34,6 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
-    /*     {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
-      name: 'Work',
-      url: '/#projects',
-    }, */
     {
       name: 'Contact',
       url: '/#contact',

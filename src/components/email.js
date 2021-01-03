@@ -38,7 +38,9 @@ const StyledEmailLink = styled.a`
 const Email = ({ isHome }) => (
   <Side isHome={isHome} orientation="right">
     <StyledLinkWrapper>
-      <StyledEmailLink href={`${link}`}>Click if you are CURIOUS !</StyledEmailLink>
+      <StyledEmailLink href={`${link}`} target="_blank" rel="nofollow noopener noreferrer">
+        If you search me, i'm there !
+      </StyledEmailLink>
     </StyledLinkWrapper>
   </Side>
 );
