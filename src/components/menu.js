@@ -74,7 +74,7 @@ const NavLink = styled(Link)`
   width: 100%;
 `;
 const ResumeLink = styled.a`
-  ${mixins.bigButton};
+  ${mixins.smallButton};
   padding: 18px 50px;
   margin: 10% auto 0;
   width: max-content;
@@ -108,7 +108,7 @@ const Menu = ({ menuOpen, toggleMenu }) => {
               ))}
           </NavList>
           <ResumeLink
-            href="/cv_jean-francois_gueritte.pdf"
+            href="https://www.linkedin.com/in/jean-francois-gueritte"
             target="_blank"
             rel="nofollow noopener noreferrer">
             Resume

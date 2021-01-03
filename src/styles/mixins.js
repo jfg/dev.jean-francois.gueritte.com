@@ -47,7 +47,74 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      color: ${colors.inlinelink_active};
+      color: ${colors.blue};
+      outline: 0;
+      &:after {
+        width: 100%;
+      }
+      & > * {
+        color: ${colors.red} !important;
+        transition: ${theme.transition};
+      }
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 1px;
+      position: relative;
+      bottom: 0.37em;
+      background-color: ${colors.inlinelink_after};
+      transition: ${theme.transition};
+      opacity: 0.5;
+    }
+  `,
+
+  link_white: css`
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: ${theme.transition};
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: ${colors.white};
+      outline: 0;
+      &:after {
+        width: 100%;
+      }
+      & > * {
+        color: ${colors.inlinelink_active2} !important;
+        transition: ${theme.transition};
+      }
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 1px;
+      position: relative;
+      bottom: 0.37em;
+      background-color: ${colors.inlinelink_after};
+      transition: ${theme.transition};
+      opacity: 0.5;
+    }
+  `,
+
+  link_blue: css`
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: ${theme.transition};
+    cursor: pointer;
+    &:hover,
+    &:focus,
+    &:active {
+      color: ${colors.blue};
       outline: 0;
       &:after {
         width: 100%;
@@ -71,9 +138,9 @@ const mixins = {
   `,
 
   smallButton: css`
-    color: ${colors.smallbutton};
+    color: ${colors.smallButton};
     background-color: transparent;
-    border: 1px solid ${colors.smallbutton_border};
+    border: 1px solid ${colors.smallButton_border};
     border-radius: ${theme.borderRadius};
     padding: 0.75rem 1rem;
     font-size: ${fontSizes.smish};
@@ -85,7 +152,9 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.smallbutton_active_background};
+      color: ${colors.smallButton_active};
+      background-color: ${colors.smallButton_background_active};
+      border: 1px solid ${colors.smallButton_border_active};
     }
     &:after {
       display: none !important;
@@ -93,9 +162,9 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: ${colors.bigbutton};
+    color: ${colors.bigButton};
     background-color: transparent;
-    border: 1px solid ${colors.bigbutton_border};
+    border: 1px solid ${colors.bigButton_border};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
@@ -107,7 +176,9 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.bigbutton_active_background};
+      color: ${colors.bigButton_black_active};
+      background-color: ${colors.bigButton_active_background};
+      border: 1px solid ${colors.bigButton_border_active};
     }
     &:after {
       display: none !important;

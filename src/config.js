@@ -1,33 +1,27 @@
 module.exports = {
-  siteTitle: 'Jean-François GUÉRITTE | System & DevOps Engineer',
-  siteDescription: 'Jean-François GUÉRITTE is a ystem & DevOps Engineer based in Toulouse, FR.',
+  siteTitle: 'Jean-François GUÉRITTE',
+  siteDescription: 'System & DevOps Engineer based in Toulouse, France.',
   siteKeywords:
-    'Jean-François GUÉRITTE, Jean-François, GUÉRITTE, GUERITTE, jfgueritte, system engineer, devops engineer',
+    'Jean-François GUÉRITTE, Jean-François, jean-francois, GUÉRITTE, GUERITTE, jfgueritte, jf-gueritte, system engineer, ingenieur, devops, devops engineer',
   siteUrl: 'https://gueritte.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: '',
   googleVerification: '',
   name: 'Jean-François GUÉRITTE',
   location: 'Toulouse, FR',
-  email: 'contact@gueritte.com',
-  github: 'https://github.com/jf-gueritte',
+  email: 'https://www.youtube.com/embed/9FqwhW0B3tY',
+  link: 'https://www.youtube.com/embed/9FqwhW0B3tY',
+  github: 'https://github.com/jfg',
   twitterHandle: '@jf_gueritte',
+  linkedin: 'https://www.linkedin.com/in/jean-francois-gueritte/',
   socialMedia: [
-    {
-      name: 'GitHub',
-      url: 'https://github.com/jf-gueritte',
-    },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/jean-francois-gueritte/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/jf-gueritte',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/jf_gueritte/',
+      name: 'GitHub',
+      url: 'https://github.com/jfg',
     },
     {
       name: 'Twitter',
@@ -40,14 +34,14 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
-    {
+    /*     {
       name: 'Experience',
       url: '/#jobs',
     },
     {
       name: 'Work',
       url: '/#projects',
-    },
+    }, */
     {
       name: 'Contact',
       url: '/#contact',

@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: ${colors.globalstyle_body_background};
+    background-color: ${colors.global_body_background};
     color: ${colors.hero_text};
     line-height: 1.3;
     font-family: ${fonts.Calibre};
@@ -121,7 +121,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: ${colors.menu_button_focus};
+      color: ${colors.global_a_focus};
     }
   }
 
@@ -183,7 +183,7 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: ${colors.ul_li_before};
+          color: ${colors.breadcrumb};
         }
       }
     }

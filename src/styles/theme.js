@@ -6,19 +6,26 @@ const BLUE = '#2f70fb';
 const GREY = '#eeecec';
 const GREEN = '#00ba03';
 const RED = '#ff4141';
+const ORANGE = '#FFA500';
 
 const theme = {
   colors: {
-    green: GREEN,
+    black: BLACK,
     white: WHITE,
+    blue: BLUE,
+    grey: GREY,
+    green: GREEN,
+    red: RED,
+    orange: ORANGE,
 
     //nav.js
     nav_container_background: WHITE,
     nav_container_shadow: hex2rgba(BLUE, 0.25),
     nav_link: BLACK,
+    nav_link_active: BLUE,
     nav_link_number: BLACK,
-    nav_logo_a: RED, // ?
-    nav_logo_a_focus: hex2rgba(BLUE, 0.25),
+    nav_logo_a: BLUE,
+    nav_logo_a_focus: hex2rgba(BLUE, 0.05),
     nav_hamburger_bar_middle: BLACK,
     nav_hamburger_bar_top_bottom: BLACK,
 
@@ -51,7 +58,10 @@ const theme = {
     side_logo: BLACK,
 
     //social.js
-    side_logo_line: BLACK,
+    side_line: RED,
+    side_mail: BLACK,
+    side_mail_active: BLUE,
+    social_logo_active: BLUE,
 
     //about.js
     about_skill: BLACK,
@@ -91,46 +101,53 @@ const theme = {
     project_button: BLACK,
 
     //index.js
-    tags: RED, // ?
-    date: RED, // ?
-    postinner_background: RED, // ?
-    postname: RED, // ?
-    postdescription: RED, // ?
+    tags: BLACK, // tags container Articles
+    date: BLACK, // date container Articles
+    postinner_background: WHITE, // container Articles
+    postname: BLACK, // name Articles
+    postdescription: BLACK, // description Articles
 
     //button.js
-    button: RED,
-    button_border: RED,
-    button_active: hex2rgba(GREY, 0.5),
+    button: BLACK,
+    button_border: BLACK,
+    button_active: hex2rgba(BLUE, 0.5),
 
     //GlobalStyle.js
-    globalstyle_body_background: WHITE,
+    global_body_background: hex2rgba(GREY, 0.25),
+    global_a_focus: BLUE,
     hero_text: BLACK,
     globalstyle_selection_background: GREEN,
     h6: BLUE,
-    menu_button_focus: BLACK,
-    p_code: RED, // ?
+    menu_button_focus: GREY, //Caviar code
+    p_code: BLACK, // Text code
 
-    // Bonne nuit
-    ul_li_before: BLACK,
-    blockquote_border: BLACK,
-    hr_background: BLACK,
-    logo: BLACK,
-    breadcrumb: BLACK,
+    breadcrumb: BLACK, // Arrow before
+    blockquote_border: BLACK, // ?
+    hr_background: RED, // ?
+    logo: BLUE,
 
     //inlinelink.js
-    inlinelink_active: BLACK,
-    inlinelink_after: BLACK,
+    inlinelink_active: BLACK, // Say Hello text and links
+    inlinelink_after: BLUE, // Focus link archive
 
     //mixins.js
-    link_focus: BLACK,
-    inlinelink: BLACK,
+    link_focus: BLACK, // Focus link tab work
+    inlinelink: BLACK, // Link in text
     inlinelink_active2: BLACK,
-    smallbutton: BLACK,
-    smallbutton_border: BLACK,
-    smallbutton_active_background: BLACK,
-    bigbutton: BLACK,
-    bigbutton_border: BLACK,
-    bigbutton_active_background: BLACK,
+    //  smallButton
+    smallButton: BLACK,
+    smallButton_active: WHITE,
+    smallButton_border: BLACK,
+    smallButton_border_active: WHITE,
+    smallButton_background_active: BLUE,
+    //  bigButton
+    bigButton: BLACK,
+    bigButton_active: WHITE,
+    bigButton_black_active: WHITE,
+    bigButton_border: BLACK,
+    bigButton_border_active: WHITE,
+    bigButton_active_background: BLUE,
+
     boxshadow: BLACK,
     boxshadow_focus: BLACK,
     fancylist_li_before: BLACK,
@@ -138,7 +155,7 @@ const theme = {
     //prismstyles.js
     linehightlighting_borderleft: BLACK,
     languagebadge_background: BLACK,
-    languagebadge: BLACK,
+    languagebadge: WHITE,
 
     //tags.js
     tagscontainer_ul: BLACK,
@@ -151,15 +168,13 @@ const theme = {
     //post.js
     postcontent_p: BLACK,
 
-    //email.js
-    featured_tags_icon_background: BLACK,
-
     //footer.js
-    social: BLACK,
-    sourcelink: GREY,
+    footer_icons: BLACK,
+    source_link: GREY,
+    thanks_link: WHITE,
 
     //archive.js
-    table_tbodytr_focus: BLACK,
+    table_tbodytr_focus: GREY,
     td_title: BLACK,
 
     //404.js

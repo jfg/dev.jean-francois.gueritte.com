@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
-  "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "name": "v4.1",
+  "description": "Personal Website V4.1",
+  "version": "4.1.0",
+  "author": "Brittany Chiang and Jean-François GUERITTE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/jfg/gueritte.com"
   },
   "keywords": [
     "gatsby"

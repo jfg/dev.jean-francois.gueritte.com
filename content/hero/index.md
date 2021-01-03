@@ -1,8 +1,8 @@
 ---
-title: 'Hi, my name is'
+title: 'Hi, I am'
 name: 'Jean-François GUÉRITTE'
 subtitle: 'System & DevOps Engineer'
 buttonText: 'Get In Touch'
 ---
 
-I'm a System & DevOps Engineer based in Toulouse, FR.
+Based in Toulouse, France.

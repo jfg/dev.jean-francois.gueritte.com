@@ -123,10 +123,10 @@ const ArchivePage = ({ location, data }) => {
           <StyledTable>
             <thead>
               <tr>
-                <th>Year</th>
-                <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
-                <th className="hide-on-mobile">Built with</th>
+                <th>When</th>
+                <th>What</th>
+                <th className="hide-on-mobile">Made for</th>
+                <th className="hide-on-mobile">Used</th>
                 <th>Link</th>
               </tr>
             </thead>

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+import { srConfig, linkedin } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -20,7 +20,7 @@ const StyledContent = styled.div`
   max-width: 480px;
   ${media.tablet`width: 100%;`};
   a {
-    ${mixins.inlineLink};
+    ${mixins.link_blue};
   }
 `;
 const SkillsContainer = styled.ul`
@@ -61,11 +61,11 @@ const StyledPic = styled.div`
   }
 `;
 const StyledAvatar = styled(Img)`
-  position: relative;
+/*   position: relative;
   mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1);
   border-radius: ${theme.borderRadius};
-  transition: ${theme.transition};
+  transition: ${theme.transition}; */
 `;
 const StyledAvatarLink = styled.a`
   ${mixins.boxShadow};
@@ -129,7 +129,7 @@ const About = ({ data }) => {
           </SkillsContainer>
         </StyledContent>
         <StyledPic>
-          <StyledAvatarLink href={github}>
+          <StyledAvatarLink href={linkedin}>
             <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
           </StyledAvatarLink>
         </StyledPic>

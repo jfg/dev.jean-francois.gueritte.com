@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { email } from '@config';
+import { link } from '@config';
 import { Side } from '@components';
 import styled from 'styled-components';
 import { theme } from '@styles';
@@ -17,7 +17,7 @@ const StyledLinkWrapper = styled.div`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.featured_tags_icon_background};
+    background-color: ${colors.side_line};
   }
 `;
 const StyledEmailLink = styled.a`
@@ -27,17 +27,18 @@ const StyledEmailLink = styled.a`
   writing-mode: vertical-rl;
   margin: 20px auto;
   padding: 10px;
-
+  color: ${colors.side_mail};
   &:hover,
   &:focus {
     transform: translateY(-3px);
+    color: ${colors.side_mail_active};
   }
 `;
 
 const Email = ({ isHome }) => (
   <Side isHome={isHome} orientation="right">
     <StyledLinkWrapper>
-      <StyledEmailLink href={`mailto:${email}`}>{email}</StyledEmailLink>
+      <StyledEmailLink href={`${link}`}>Click if you are CURIOUS !</StyledEmailLink>
     </StyledLinkWrapper>
   </Side>
 );

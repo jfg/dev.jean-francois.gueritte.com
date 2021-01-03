@@ -15,7 +15,7 @@ const StyledContainer = styled.footer`
   min-height: 70px;
 `;
 const StyledSocial = styled.div`
-  color: ${colors.social};
+  color: ${colors.footer_icons};
   width: 100%;
   max-width: 270px;
   margin: 0 auto 10px;
@@ -40,8 +40,8 @@ const StyledMetadata = styled.div`
   font-size: ${fontSizes.xs};
   line-height: 1;
 `;
-const StyledGitHubLink = styled.a`
-  color: ${colors.sourcelink};
+const StyledThanksLink = styled.a`
+  color: ${colors.thanks_link};
   padding: 10px;
 `;
 const StyledGitHubInfo = styled.div`
@@ -101,8 +101,8 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
-        <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
+        <StyledThanksLink
+          href="https://twitter.com/bchiang7"
           target="_blank"
           rel="nofollow noopener noreferrer">
           <div>Thanks Brittany Chiang</div>
@@ -119,7 +119,7 @@ const Footer = () => {
               </span>
             </StyledGitHubInfo>
           )}
-        </StyledGitHubLink>
+        </StyledThanksLink>
       </StyledMetadata>
     </StyledContainer>
   );

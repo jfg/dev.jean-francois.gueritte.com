@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import sr from '@utils/sr';
-import { srConfig, email } from '@config';
+import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -11,7 +11,7 @@ const StyledContainer = styled(Section)`
   max-width: 600px;
   margin: 0 auto 100px;
   a {
-    ${mixins.inlineLink};
+    ${mixins.link_white};
   }
 `;
 const StyledHeading = styled(Heading)`
@@ -51,13 +51,16 @@ const Contact = ({ data }) => {
 
   return (
     <StyledContainer id="contact" ref={revealContainer}>
-      <StyledHeading>What&apos;s Next?</StyledHeading>
+      <StyledHeading>Contact</StyledHeading>
 
       <StyledTitle>{title}</StyledTitle>
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
 
-      <StyledEmailLink href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
+      <StyledEmailLink
+        href="https://www.linkedin.com/in/jean-francois-gueritte"
+        target="_blank"
+        rel="nofollow noopener noreferrer">
         {buttonText}
       </StyledEmailLink>
     </StyledContainer>

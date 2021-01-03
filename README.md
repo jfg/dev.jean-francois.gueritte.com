@@ -48,4 +48,6 @@
    npm run serve
    ```
 
-## 🎨 Colors Template in "theme.js"
+## 🎨 Colors
+
+Should be modify in "theme.js"

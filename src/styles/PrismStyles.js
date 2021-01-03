@@ -3,15 +3,16 @@ import theme from './theme';
 const { colors, fontSizes, fonts } = theme;
 
 const prismColors = {
-  bg: `#112340`,
-  lineHighlight: `#1d2d50`,
-  blue: `#5ccfe6`,
+  black: `#000000`,
+  white: `#FFFFFF`,
+  blue: `#2f70fb`,
+  grey: `#eeecec`,
+  green: `#00ba03`,
+  red: `#ff4141`,
+  orange: `#FFA500`,
+  lineHighlight: `#8695b799`,
   purple: `#c3a6ff`,
-  green: `#bae67e`,
   yellow: `#ffd580`,
-  orange: `#ffae57`,
-  red: `#ef6b73`,
-  grey: `#a2aabc`,
   comment: `#8695b799`,
 };
 
@@ -23,8 +24,8 @@ const PrismStyles = css`
   * and overflow that we removed from <pre>.
   */
   .gatsby-highlight {
-    background-color: ${prismColors.bg};
-    color: ${prismColors.variable};
+    background-color: ${prismColors.grey};
+    color: ${prismColors.black};
     border-radius: ${theme.borderRadius};
     margin: 2em 0;
     padding: 1.25em;
@@ -69,8 +70,8 @@ const PrismStyles = css`
     padding: 1em 1.5em;
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.smish};
-    background-color: ${prismColors.bg};
-    color: ${prismColors.grey};
+    background-color: ${prismColors.grey};
+    color: ${prismColors.black};
     border-top-left-radius: ${theme.borderRadius};
     border-top-right-radius: ${theme.borderRadius};
     border-bottom: 1px solid ${prismColors.lineHighlight};
@@ -186,13 +187,13 @@ const PrismStyles = css`
   .token.attr-name,
   .token.operator,
   .token.rule {
-    color: ${prismColors.orange};
+    color: ${prismColors.red};
   }
   .token.keyword,
   .token.boolean,
   .token.number,
   .token.property {
-    color: ${prismColors.purple};
+    color: ${prismColors.green};
   }
   .token.tag,
   .token.selector,

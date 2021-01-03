@@ -21,7 +21,7 @@ const StyledList = styled.ul`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.side_logo_line};
+    background-color: ${colors.side_line};
   }
 
   li:last-of-type {
@@ -32,6 +32,7 @@ const StyledLink = styled.a`
   padding: 10px;
   &:hover,
   &:focus {
+    color: ${colors.social_logo_active};
     transform: translateY(-3px);
   }
   svg {
