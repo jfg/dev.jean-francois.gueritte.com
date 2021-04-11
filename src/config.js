@@ -1,18 +1,17 @@
 module.exports = {
-  siteTitle: 'Jean-François GUÉRITTE',
-  siteDescription: 'System & DevOps Engineer based in Toulouse, France.',
-  siteKeywords:
-    'Jean-François GUÉRITTE, Jean-François, jean-francois, GUÉRITTE, GUERITTE, jfgueritte, jf-gueritte, system engineer, ingenieur, devops, devops engineer',
+  siteTitle: 'Jean-François GUÉRITTE - gueritte.com',
+  siteDescription: 'GUÉRITTE Jean-François is an System & DevOps Engineer based in Toulouse, France.',
+  siteKeywords: 'Jean-François GUÉRITTE, Jean-François, jean-francois, GUÉRITTE, GUERITTE, jfgueritte, jf-gueritte, system engineer, ingenieur, devops, devops engineer',
   siteUrl: 'https://gueritte.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: '',
-  googleVerification: '',
+  googleAnalyticsID: 'UA-36453091-1',
+  googleVerification: 'WXmym-09JD04R4L3ymvdPJcI3GCwJR3t-i99hrhCxIQ',
   name: 'Jean-François GUÉRITTE',
   location: 'Toulouse, FR',
   email: 'contact@gueritte.com',
   link: 'https://stars.chromeexperiments.com/',
   github: 'https://github.com/jfg',
-  twitterHandle: '@jf_gueritte',
+  twitterHandle: '',
   linkedin: 'https://www.linkedin.com/in/jean-francois-gueritte/',
   socialMedia: [
     {
@@ -22,10 +21,6 @@ module.exports = {
     {
       name: 'GitHub',
       url: 'https://github.com/jfg',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/jf_gueritte',
     },
   ],
 
